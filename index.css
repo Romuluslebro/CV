@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'mapolice';
+    src: url(polices/mapolice.ttf);
+}
+
+#photo
+{
+    float: right;
+    box-shadow: 10px 10px 10px #751e2c ;
+    margin-right: 25px;
+}
+
+h1, h1 + p
+{
+    text-align: center;
+    font-family: 'mapolice', Arial, Helvetica, sans-serif;
+    color: #751e2c;
+}
+
+h1
+{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    justify-content: center;
+    width: 30%;
+    margin-right: 2%;
+    margin-left: 4%;
+    margin-top: 3%;
+    border-left: groove 2px #751e2c;
+    border-top: groove 2px #751e2c;
+}
+
+#barre
+{
+    width: 10%;
+    height: 655px;
+    margin-right: 3%;
+    background-image: url(images/barre.png);
+    border-radius: 10px;
+    float: left;
+}
